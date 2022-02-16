@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic tac toe</title>
-    
+    <link rel="shortcut icon" type="x-icon" href="tabbild.png">
     <link rel="stylesheet" href="css/ticitacitoe.css">
 </head>
 <body>
+    <div id="spielmeldungsfeld" class="versteckt">
+        <h2 id="spielmeldungs_text"></h2>
     <div id="hauptfeld">
         <div data-index="1" class="feld rechtegrenze unteregrenze"></div>
         <div data-index="2" class="feld rechtegrenze unteregrenze"></div>
@@ -23,7 +25,6 @@
 
     </div>
     <div id="spielmeldungsfeld" class="versteckt">
-        <h2 id="spielmeldungs_text"></h2>
         <button id="neustart">Nochmal</button>
     </div>
     <script src="JavaScript/ticitaci.js"></script>

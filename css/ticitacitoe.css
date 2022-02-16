@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 3%;
     background-color: #031321; 
     font-family: sans-serif;
     text-shadow: 
@@ -22,8 +22,8 @@ body{
 
 #hauptfeld{
     display: grid;
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px;
     cursor: pointer;
     position: relative;
 }
@@ -31,7 +31,7 @@ body{
 .feld{
     color: rgb(0, 0, 255);
     
-    font-size: 3em;
+    font-size: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +111,7 @@ body{
 #spielmeldungsfeld{
     text-align: center;
     border: #031321 8px solid; 
-    padding: 100px;
+    
  
 }
     
@@ -126,6 +126,7 @@ button{
     width: 200px;
     height: 50px;
     font-size: 1.5em;
+    margin-top: 10%
 }
 
 .versteckt{
